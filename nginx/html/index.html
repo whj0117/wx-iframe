@@ -1,0 +1,50 @@
+<!--
+ * @Author: wanghongjian
+ * @Date: 2022-05-20 17:19:45
+ * @LastEditors: wanghongjian
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="never"><!--解决显示‘此图片来自微信公众平台未经润许不可使用问题’-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <div id="wrapper">哈哈哈哈哈</div>
+    <script>
+        $.ajaxPrefilter(function (options) {
+            if (options.crossDomain && jQuery.support.cors) {
+                var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+                options.url = 'http:' + '//127.0.0.1:8090/' + options.url;
+            }
+        });
+        var link = "https://mp.weixin.qq.com/s/8LndqjQ1w2FgauxqfNd8Bw";
+        // var link = "https://mp.weixin.qq.com/s/GHeexB-RMIxCjjk7O5DnHQ";
+       
+        $.get(
+            link,
+            function (response) {
+                var html = response;
+                html = html.replace(/data-src/g, "src");
+        //         html = html = html.replace(/data-src/g, "src")
+   		// .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/g, '')
+   		// .replace(/https/g,'http');
+           console.log(html)
+                //iframe的嵌套
+                // var html_src = 'data:text/html;charset=utf-8,' + html; //解析码解决乱码
+                // $("iframe").attr("src", html_src);
+                $("#wrapper").html(html)
+            }
+        );
+    </script>
+</body>
+
+</html>

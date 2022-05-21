@@ -1,0 +1,84 @@
+2022/05/20 17:18:26 [error] 2448#9064: *1 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2022/05/20 17:18:32 [error] 2448#9064: *4 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2022/05/20 17:18:48 [error] 2448#9064: *6 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.137.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.137.1", referrer: "http://192.168.137.1/index.html"
+2022/05/20 17:27:34 [notice] 7584#5060: signal process started
+2022/05/20 17:28:48 [notice] 7604#5820: signal process started
+2022/05/20 17:29:55 [notice] 9396#13372: signal process started
+2022/05/20 17:31:16 [error] 2448#9064: *18 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 17:35:32 [notice] 12752#7240: signal process started
+2022/05/20 17:36:40 [notice] 4268#13916: signal process started
+2022/05/20 17:38:24 [notice] 16620#3500: signal process started
+2022/05/20 17:39:55 [notice] 12552#17204: signal process started
+2022/05/20 17:39:59 [notice] 2312#17084: signal process started
+2022/05/20 17:39:59 [error] 2312#17084: CreateFile() "D:\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/05/20 17:41:33 [notice] 13936#17272: signal process started
+2022/05/20 17:42:38 [notice] 1508#6120: signal process started
+2022/05/20 17:43:27 [notice] 2276#2352: signal process started
+2022/05/20 17:44:16 [notice] 15824#10828: signal process started
+2022/05/20 17:46:19 [notice] 17112#16400: signal process started
+2022/05/20 17:49:04 [notice] 15196#16192: signal process started
+2022/05/20 17:49:25 [notice] 12420#1532: signal process started
+2022/05/20 17:49:33 [notice] 10688#8136: signal process started
+2022/05/20 17:51:16 [error] 2448#9064: *33 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:02:53 [notice] 17272#11600: signal process started
+2022/05/20 18:03:30 [notice] 15732#9060: signal process started
+2022/05/20 18:03:38 [error] 2448#9064: *42 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:06:36 [emerg] 6244#8136: directive "add_header" is not terminated by ";" in D:\nginx-1.18.0/conf/nginx.conf:46
+2022/05/20 18:06:42 [emerg] 13008#15196: directive "add_header" is not terminated by ";" in D:\nginx-1.18.0/conf/nginx.conf:46
+2022/05/20 18:06:46 [emerg] 3984#9712: directive "add_header" is not terminated by ";" in D:\nginx-1.18.0/conf/nginx.conf:46
+2022/05/20 18:06:58 [error] 2448#9064: *44 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:08:39 [error] 2448#9064: *46 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:09:32 [notice] 16128#13144: signal process started
+2022/05/20 18:10:00 [notice] 6120#16344: signal process started
+2022/05/20 18:12:34 [emerg] 9092#10324: unknown directive "if($request_method" in D:\nginx-1.18.0/conf/nginx.conf:51
+2022/05/20 18:12:36 [emerg] 16456#14968: unknown directive "if($request_method" in D:\nginx-1.18.0/conf/nginx.conf:51
+2022/05/20 18:12:46 [error] 2448#9064: *49 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:13:12 [error] 2448#9064: *49 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:13:25 [emerg] 12164#14852: unknown directive "if($request_method" in D:\nginx-1.18.0/conf/nginx.conf:51
+2022/05/20 18:13:47 [notice] 16460#17328: signal process started
+2022/05/20 18:13:59 [error] 2448#9064: *49 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:14:52 [notice] 10072#9532: signal process started
+2022/05/20 18:15:04 [error] 2448#9064: *49 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:17:21 [notice] 11664#15528: signal process started
+2022/05/20 18:22:18 [emerg] 16892#15456: unexpected "}" in D:\nginx-1.18.0/conf/nginx.conf:50
+2022/05/20 18:22:29 [notice] 10692#11644: signal process started
+2022/05/20 18:22:39 [error] 2448#9064: *55 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:25:55 [notice] 15612#15944: signal process started
+2022/05/20 18:27:42 [error] 2448#9064: *59 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:35:12 [error] 2448#9064: *65 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:36:35 [error] 2448#9064: *65 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105", referrer: "http://192.168.90.105/index.html"
+2022/05/20 18:38:03 [error] 2448#9064: *70 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105"
+2022/05/20 18:38:09 [error] 2448#9064: *70 CreateFile() "D:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.90.105, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.90.105"
+2022/05/21 14:25:59 [notice] 3568#11164: signal process started
+2022/05/21 14:26:39 [notice] 14496#11904: signal process started
+2022/05/21 14:29:43 [notice] 10308#5616: signal process started
+2022/05/21 14:30:22 [notice] 15024#1496: signal process started
+2022/05/21 14:30:52 [notice] 4248#3996: signal process started
+2022/05/21 14:32:26 [notice] 13724#10500: signal process started
+2022/05/21 14:33:18 [notice] 13416#11696: signal process started
+2022/05/21 15:35:42 [notice] 1712#6016: signal process started
+2022/05/21 15:36:04 [notice] 14500#11668: signal process started
+2022/05/21 15:36:27 [notice] 13480#14740: signal process started
+2022/05/21 15:38:34 [emerg] 14360#5084: unknown directive "50x" in D:\nginx-1.18.0/conf/nginx.conf:45
+2022/05/21 15:39:12 [notice] 11552#2804: signal process started
+2022/05/21 15:41:44 [notice] 14504#6556: signal process started
+2022/05/21 15:46:46 [notice] 14956#14744: signal process started
+2022/05/21 15:47:21 [notice] 11748#14636: signal process started
+2022/05/21 15:51:20 [notice] 14504#8632: signal process started
+2022/05/21 15:53:20 [notice] 4080#2424: signal process started
+2022/05/21 15:56:42 [notice] 4604#11688: signal process started
+2022/05/21 15:58:04 [notice] 12788#10628: signal process started
+2022/05/21 16:02:02 [notice] 14000#13116: signal process started
+2022/05/21 16:02:32 [notice] 11260#2848: signal process started
+2022/05/21 16:02:45 [notice] 10700#240: signal process started
+2022/05/21 16:04:39 [notice] 2924#10772: signal process started
+2022/05/21 16:07:12 [notice] 3828#11800: signal process started
+2022/05/21 16:07:33 [notice] 13580#13740: signal process started
+2022/05/21 16:12:04 [emerg] 4004#8856: unknown directive "proxy_pass_headers" in D:\nginx-1.18.0/conf/nginx.conf:52
+2022/05/21 16:12:28 [emerg] 1980#13424: unknown directive "proxy_set_headers" in D:\nginx-1.18.0/conf/nginx.conf:52
+2022/05/21 16:12:40 [emerg] 1172#12012: unknown directive "proxy_set_headers" in D:\nginx-1.18.0/conf/nginx.conf:52
+2022/05/21 16:12:53 [emerg] 4588#7080: invalid number of arguments in "proxy_set_header" directive in D:\nginx-1.18.0/conf/nginx.conf:53
+2022/05/21 21:01:17 [notice] 1548#2520: signal process started
+2022/05/21 21:31:22 [emerg] 9148#12176: invalid number of arguments in "add_header" directive in D:\nginx-1.18.0/conf/nginx.conf:46
+2022/05/21 21:31:31 [emerg] 14288#10476: unknown directive "add_headers" in D:\nginx-1.18.0/conf/nginx.conf:46
+2022/05/21 21:31:54 [notice] 14540#14964: signal process started
